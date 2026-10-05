@@ -20,5 +20,10 @@ namespace The_Assembler
         {
             InitializeComponent();
         }
+
+        private void ButtonClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
