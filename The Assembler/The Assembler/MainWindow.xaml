@@ -5,13 +5,53 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:The_Assembler"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="489" Width="800" ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="31*"/>
             <ColumnDefinition Width="769*"/>
         </Grid.ColumnDefinitions>
-        <Button Grid.Column="1" Content="Button" HorizontalAlignment="Left" Margin="66,95,0,0" VerticalAlignment="Top" Height="40" Width="152" Click="ButtonClick"/>
+
+        <Image HorizontalAlignment="Left" Height="398" Margin="0,77,0,0" VerticalAlignment="Top" Width="1306" Source="/PurpleGradient.png" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Grid.ColumnSpan="2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+        <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="236" Margin="3,188,0,0" Stroke="Black" VerticalAlignment="Top" Width="732"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="110,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="342" Height="21" TextChanged="TextBox_TextChanged"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="110,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" FontSize="36"><Run Language="en-ie" Text="The Assembler"/></TextBlock>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="146" Margin="521,42,0,0" VerticalAlignment="Top" Width="214" Source="/onSale.png" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="155" Margin="-9,42,0,0" VerticalAlignment="Top" Width="163" Source="/Screenshot_2026-10-06_113100_bg_removed.png.png" Grid.ColumnSpan="2"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="105,284,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="236" Margin="3,188,0,0" VerticalAlignment="Top" Width="732" Source="/White.png" Stretch="Fill"/>
+        <Button Grid.Column="1" Content="Log In" Margin="0,10,122,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFD1B0F9" Width="61" HorizontalAlignment="Right"/>
+        <Button Grid.Column="1" Content="Cart" Margin="0,10,61,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFE2FFFD" Width="61" HorizontalAlignment="Right"/>
+        <Button Grid.Column="1" Content="History" Margin="0,10,0,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFE2FFFD" Width="61" HorizontalAlignment="Right"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="3,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Background="White"><Run Text="Highlighted"/><Run Language="en-ie" Text=" Products"/></TextBlock>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="83" Margin="10,223,0,0" VerticalAlignment="Top" Width="698" Stretch="Fill" Source="/LightGrey.png"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="10,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Background="White" Height="19"><Run Language="en-ie" Text="Hardware"/><LineBreak/><Run Language="en-ie"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="10,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Background="White" Height="29"><Run Language="en-ie" Text="Software"/><LineBreak/><Run/></TextBlock>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="83" Margin="10,322,0,0" VerticalAlignment="Top" Width="698" Stretch="Fill" Source="/LightGrey.png"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="165,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39" Background="Black" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" Foreground="#FFFFC700"><Run Language="en-ie" Text="€750"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="413,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39" Background="Black" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" Foreground="#FFFFC700"><Run Text="€"/><Run Language="en-ie" Text="500"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="165,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39" Background="Black" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" Foreground="#FFFFC700"><Run Language="en-ie" Text="€750"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="191,385,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39" Background="Black" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" Foreground="#FFFFC700"><Run Text="€"/><Run Language="en-ie" Text="150"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="393,385,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Background="Black" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" Foreground="#FFFFC700"><Run Text="€"/><Run Language="en-ie" Text="100"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="658,381,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39" Background="Black" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" Foreground="#FFFFC700"><Run Text="€"/><Run Language="en-ie" Text="100"/></TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="110,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="365" FontFamily="Segoe UI Variable Display Light" FontStyle="Italic"><Run Text="Cant find a product you want"/><Run Language="en-ie" Text=" below? Search here!"/></TextBlock>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="83" Margin="87,223,0,0" VerticalAlignment="Top" Width="150" Source="/GeForce 4060.png" Stretch="Fill"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="111" Margin="313,211,0,0" VerticalAlignment="Top" Width="112" Source="/GeForce 3060.png" Stretch="Fill"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="111" Margin="561,211,0,0" VerticalAlignment="Top" Width="112" Source="/GeForce 5060.jpg" Stretch="Fill"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="127" Margin="87,326,0,0" VerticalAlignment="Top" Width="132" Source="/photoshop.png"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="81" Margin="323,326,0,0" VerticalAlignment="Top" Width="72" Source="/flStudio.png"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="81" Margin="581,325,0,0" VerticalAlignment="Top" Width="72" Source="/maya.png"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="669,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47" Background="Black" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" Foreground="#FFFFC700"><Run Text="€"/><Run Language="en-ie" Text="1500"/></TextBlock>
 
     </Grid>
 </Window>

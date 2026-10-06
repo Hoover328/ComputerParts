@@ -11,9 +11,41 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="flStudio.png" />
+    <None Remove="GeForce 3060.png" />
+    <None Remove="GeForce 4060.png" />
+    <None Remove="GeForce 5060.jpg" />
+    <None Remove="LightGrey.png" />
+    <None Remove="maya.png" />
+    <None Remove="onSale.png" />
+    <None Remove="photoshop.png" />
+    <None Remove="photoshop.webp" />
+    <None Remove="PurpleGradient.png" />
+    <None Remove="redWhiteGradient.jpg" />
+    <None Remove="Screenshot_2026-10-06_113100_bg_removed.png.png" />
+    <None Remove="White.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.7" />
     <PackageReference Include="MySqlConnector" Version="2.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="flStudio.png" />
+    <Resource Include="GeForce 3060.png" />
+    <Resource Include="GeForce 4060.png" />
+    <Resource Include="GeForce 5060.jpg" />
+    <Resource Include="LightGrey.png" />
+    <Resource Include="maya.png" />
+    <Resource Include="onSale.png" />
+    <Resource Include="photoshop.png" />
+    <Resource Include="photoshop.webp" />
+    <Resource Include="PurpleGradient.png" />
+    <Resource Include="redWhiteGradient.jpg" />
+    <Resource Include="Screenshot_2026-10-06_113100_bg_removed.png.png" />
+    <Resource Include="White.png" />
   </ItemGroup>
 
 </Project>
