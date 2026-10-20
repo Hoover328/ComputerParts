@@ -136,3 +136,91 @@ C:\Users\StudentHarveySmith(T\Desktop\Compu\The Assembler\The Assembler\obj\Debu
 C:\Users\StudentHarveySmith(T\Desktop\Compu\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler.pdb
 C:\Users\StudentHarveySmith(T\Desktop\Compu\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler.genruntimeconfig.cache
 C:\Users\StudentHarveySmith(T\Desktop\Compu\The Assembler\The Assembler\obj\Debug\net10.0-windows\ref\The Assembler.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\The Assembler.exe
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\The Assembler.deps.json
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\The Assembler.runtimeconfig.json
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\The Assembler.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\The Assembler.pdb
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Data.SqlClient.Extensions.Abstractions.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Data.SqlClient.Internal.Logging.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\MySqlConnector.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\System.Threading.RateLimiting.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler.csproj.AssemblyReference.cache
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler_MarkupCompile.cache
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler_MarkupCompile.lref
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler.g.resources
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler.AssemblyInfoInputs.cache
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler.AssemblyInfo.cs
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler.csproj.CoreCompileInputs.cache
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler.sourcelink.json
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Asse.BCBFD8EA.Up2Date
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\refint\The Assembler.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler.pdb
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler.genruntimeconfig.cache
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\ref\The Assembler.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Xceed.Wpf.AvalonDock.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\Xceed.Wpf.Toolkit.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\bin\Debug\net10.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\HighlightedProduct.g.cs
+C:\Users\StudentHarveySmith(T\Desktop\Comp\The Assembler\The Assembler\obj\Debug\net10.0-windows\HighlightedProduct.baml

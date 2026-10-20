@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vOkFL8SVmjk=",
+  "dgSpecHash": "AlNZeZPfc20=",
   "success": true,
-  "projectFilePath": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compu\\The Assembler\\The Assembler\\The Assembler.csproj",
+  "projectFilePath": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Comp\\The Assembler\\The Assembler\\The Assembler.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\StudentHarveySmith(T\\.nuget\\packages\\extended.wpf.toolkit\\5.1.2\\extended.wpf.toolkit.5.1.2.nupkg.sha512",
     "C:\\Users\\StudentHarveySmith(T\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.18\\microsoft.bcl.cryptography.9.0.18.nupkg.sha512",
     "C:\\Users\\StudentHarveySmith(T\\.nuget\\packages\\microsoft.data.sqlclient\\7.1.1\\microsoft.data.sqlclient.7.1.1.nupkg.sha512",
     "C:\\Users\\StudentHarveySmith(T\\.nuget\\packages\\microsoft.data.sqlclient.extensions.abstractions\\7.1.1\\microsoft.data.sqlclient.extensions.abstractions.7.1.1.nupkg.sha512",
