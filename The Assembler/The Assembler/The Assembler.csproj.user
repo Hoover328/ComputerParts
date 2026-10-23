@@ -2,7 +2,11 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Update="HighlightedProduct.xaml.cs">
+=======
+    <Compile Update="Cart.xaml.cs">
+>>>>>>> George2
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
