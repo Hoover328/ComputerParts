@@ -3,10 +3,14 @@
   <PropertyGroup />
   <ItemGroup>
 <<<<<<< HEAD
+    <Compile Update="Products.xaml.cs">
+=======
+<<<<<<< HEAD
     <Compile Update="HighlightedProduct.xaml.cs">
 =======
     <Compile Update="Cart.xaml.cs">
 >>>>>>> George2
+>>>>>>> main
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
