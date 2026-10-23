@@ -20,6 +20,7 @@
     <None Remove="onSale.png" />
     <None Remove="photoshop.png" />
     <None Remove="photoshop.webp" />
+    <None Remove="placeholder.png" />
     <None Remove="PurpleGradient.png" />
     <None Remove="redWhiteGradient.jpg" />
     <None Remove="Screenshot_2026-10-06_113100_bg_removed.png.png" />
@@ -27,6 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="5.1.2" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.7" />
     <PackageReference Include="MySqlConnector" Version="2.6.2" />
@@ -42,6 +44,7 @@
     <Resource Include="onSale.png" />
     <Resource Include="photoshop.png" />
     <Resource Include="photoshop.webp" />
+    <Resource Include="placeholder.png" />
     <Resource Include="PurpleGradient.png" />
     <Resource Include="redWhiteGradient.jpg" />
     <Resource Include="Screenshot_2026-10-06_113100_bg_removed.png.png" />
