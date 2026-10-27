@@ -1,0 +1,22 @@
+## Visual Studio / MSBuild
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Visual Studio workspace/cache directory
+.vs/
+
+## NuGet package folders
+*.nupkg
+packages/
