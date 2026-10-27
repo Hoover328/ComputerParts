@@ -21,5 +21,55 @@ namespace The_Assembler
         {
             InitializeComponent();
         }
+
+        private void Home_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Products_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Cart_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ApplyFilters(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ApplyFilters_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SortCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Next_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ClearFilters_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Details_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Previous_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:The_Assembler"
         mc:Ignorable="d"
         Title="Products" Height="450" Width="800">
-    <Page.Resources>
+    <Window.Resources>
         <Style x:Key="BlueButton" TargetType="Button">
             <Setter Property="Background" Value="#087CF5"/>
             <Setter Property="Foreground" Value="White"/>
@@ -32,7 +32,7 @@
             <Setter Property="FontWeight" Value="SemiBold"/>
             <Setter Property="Margin" Value="0,12,0,5"/>
         </Style>
-    </Page.Resources>
+    </Window.Resources>
 
     <Grid>
         <Grid.RowDefinitions>
