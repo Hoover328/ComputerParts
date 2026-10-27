@@ -13,19 +13,17 @@
             <ColumnDefinition Width="572*"/>
         </Grid.ColumnDefinitions>
 
-        <Image HorizontalAlignment="Left" Height="398" Margin="0,77,0,0" VerticalAlignment="Top" Width="1306" Source="/PurpleGradient.png" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Grid.ColumnSpan="3">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform ScaleY="-1"/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
+        <Border Grid.ColumnSpan="3" Margin="0,39,0,0">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0.3">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="Purple" Offset="1.1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
 
         <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="236" Margin="3,188,0,0" Stroke="Black" VerticalAlignment="Top" Width="732" Grid.ColumnSpan="2"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="110,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="342" Height="21" TextChanged="TextBox_TextChanged" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="TxtSearchBar" Grid.Column="1" HorizontalAlignment="Left" Margin="110,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="342" Height="21" TextChanged="TextBox_TextChanged" Grid.ColumnSpan="2"/>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="110,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" FontSize="36" Grid.ColumnSpan="2"><Run Language="en-ie" Text="The Assembler"/></TextBlock>
         <Image Grid.Column="2" HorizontalAlignment="Left" Height="146" Margin="324,34,0,0" VerticalAlignment="Top" Width="214" Source="/onSale.png" Stretch="Fill">
             <Image.Effect>
@@ -39,9 +37,9 @@
                 <DropShadowEffect/>
             </Image.Effect>
         </Image>
-        <Button Grid.Column="2" Content="Log In" Margin="0,10,122,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFD1B0F9" Width="61" HorizontalAlignment="Right"/>
-        <Button Grid.Column="2" Content="Cart" Margin="0,10,61,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFE2FFFD" Width="61" HorizontalAlignment="Right"/>
-        <Button Grid.Column="2" Content="History" Margin="0,10,0,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFE2FFFD" Width="61" HorizontalAlignment="Right"/>
+        <Button Grid.Column="2" Content="Log In" Margin="0,10,122,0" VerticalAlignment="Top" Click="BtnLogIn_Click" Background="#FFD1B0F9" Width="61" HorizontalAlignment="Right"/>
+        <Button Grid.Column="2" Content="Cart" Margin="0,10,61,0" VerticalAlignment="Top" Click="BtnCart_Click" Background="#FFE2FFFD" Width="61" HorizontalAlignment="Right"/>
+        <Button Grid.Column="2" Content="History" Margin="0,10,0,0" VerticalAlignment="Top" Click="BtnHistory_Click" Background="#FFE2FFFD" Width="61" HorizontalAlignment="Right"/>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="3,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Background="White"><Run Text="Highlighted"/><Run Language="en-ie" Text=" Products"/></TextBlock>
         <Image Grid.Column="1" HorizontalAlignment="Left" Height="83" Margin="10,223,0,0" VerticalAlignment="Top" Width="698" Stretch="Fill" Source="/LightGrey.png" Grid.ColumnSpan="2"/>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="10,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Background="White" Height="19"><Run Language="en-ie" Text="Hardware"/><LineBreak/><Run Language="en-ie"/></TextBlock>

@@ -21,12 +21,18 @@ namespace The_Assembler
             InitializeComponent();
         }
 
-        private void ButtonClick(object sender, RoutedEventArgs e)
+        private void BtnLogIn_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void BtnCart_Click(object sender, RoutedEventArgs e)
+        {
+            Cart cartWindow = new Cart();
+            cartWindow.Show();
+        }
+
+        private void BtnHistory_Click(object sender, RoutedEventArgs e)
         {
 
         }
