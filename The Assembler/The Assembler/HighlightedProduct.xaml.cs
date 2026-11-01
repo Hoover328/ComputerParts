@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySqlConnector;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -19,6 +20,12 @@ namespace The_Assembler
     {
         public HighlightedProduct()
         {
+            InitializeComponent();
+            loadDesiredProduct(1);
+        }
+
+        private void txtProductName_Text(object sender, TextChangedEventArgs e)
+        {
             
         }
 
@@ -30,6 +37,15 @@ namespace The_Assembler
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+        public void loadDesiredProduct(int productID)
+        {
+            using (MySqlDataReader read = HighlightedProducts.getDesiredProduct(productID))
+            {
+                txtProductName.Text = read["name"].ToString();
+                txtProductPrice.Text = read["price"].ToString();
+                txtProductDescription.Text = read["description"].ToString();
+            }
         }
     }
 }

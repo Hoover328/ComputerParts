@@ -23,7 +23,7 @@
         </Border>
 
         <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="236" Margin="3,188,0,0" Stroke="Black" VerticalAlignment="Top" Width="732" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="TxtSearchBar" Grid.Column="1" HorizontalAlignment="Left" Margin="110,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="342" Height="21" TextChanged="TextBox_TextChanged" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txtSearchBar" Grid.Column="1" HorizontalAlignment="Left" Margin="110,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="259" Height="21" TextChanged="TextBox_TextChanged" Grid.ColumnSpan="2"/>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="110,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" FontSize="36" Grid.ColumnSpan="2"><Run Language="en-ie" Text="The Assembler"/></TextBlock>
         <Image Grid.Column="2" HorizontalAlignment="Left" Height="146" Margin="324,34,0,0" VerticalAlignment="Top" Width="214" Source="/onSale.png" Stretch="Fill">
             <Image.Effect>
@@ -37,9 +37,6 @@
                 <DropShadowEffect/>
             </Image.Effect>
         </Image>
-        <Button Grid.Column="2" Content="Log In" Margin="0,10,122,0" VerticalAlignment="Top" Click="BtnLogIn_Click" Background="#FFD1B0F9" Width="61" HorizontalAlignment="Right"/>
-        <Button Grid.Column="2" Content="Cart" Margin="0,10,61,0" VerticalAlignment="Top" Click="BtnCart_Click" Background="#FFE2FFFD" Width="61" HorizontalAlignment="Right"/>
-        <Button Grid.Column="2" Content="History" Margin="0,10,0,0" VerticalAlignment="Top" Click="BtnHistory_Click" Background="#FFE2FFFD" Width="61" HorizontalAlignment="Right"/>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="3,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Background="White"><Run Text="Highlighted"/><Run Language="en-ie" Text=" Products"/></TextBlock>
         <Image Grid.Column="1" HorizontalAlignment="Left" Height="83" Margin="10,223,0,0" VerticalAlignment="Top" Width="698" Stretch="Fill" Source="/LightGrey.png" Grid.ColumnSpan="2"/>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="10,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Background="White" Height="19"><Run Language="en-ie" Text="Hardware"/><LineBreak/><Run Language="en-ie"/></TextBlock>
@@ -52,13 +49,63 @@
         <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="196,385,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Background="Black" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" Foreground="#FFFFC700"><Run Text="€"/><Run Language="en-ie" Text="100"/></TextBlock>
         <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="461,381,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39" Background="Black" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" Foreground="#FFFFC700"><Run Text="€"/><Run Language="en-ie" Text="100"/></TextBlock>
         <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="110,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="365" FontFamily="Segoe UI Variable Display Light" FontStyle="Italic" Grid.ColumnSpan="2"><Run Text="Cant find a product you want"/><Run Language="en-ie" Text=" below? Search here!"/></TextBlock>
-        <Image Grid.Column="1" HorizontalAlignment="Left" Height="83" Margin="87,223,0,0" VerticalAlignment="Top" Width="150" Source="/GeForce 4060.png" Stretch="Fill" Grid.ColumnSpan="2"/>
-        <Image Grid.Column="2" HorizontalAlignment="Left" Height="111" Margin="116,211,0,0" VerticalAlignment="Top" Width="112" Source="/GeForce 3060.png" Stretch="Fill"/>
-        <Image Grid.Column="2" HorizontalAlignment="Left" Height="111" Margin="364,211,0,0" VerticalAlignment="Top" Width="112" Source="/GeForce 5060.jpg" Stretch="Fill"/>
-        <Image Grid.Column="1" HorizontalAlignment="Left" Height="127" Margin="87,326,0,0" VerticalAlignment="Top" Width="132" Source="/photoshop.png" Grid.ColumnSpan="2"/>
-        <Image Grid.Column="2" HorizontalAlignment="Left" Height="81" Margin="126,326,0,0" VerticalAlignment="Top" Width="72" Source="/flStudio.png"/>
-        <Image Grid.Column="2" HorizontalAlignment="Left" Height="81" Margin="384,325,0,0" VerticalAlignment="Top" Width="72" Source="/maya.png"/>
+        <Button Click="btnProduct1_Click" Background="Transparent" BorderBrush="Transparent" Grid.Column="1" Margin="47,223,32,167">
+            <Image Source="/GeForce 4060.png" Grid.ColumnSpan="2" Width="129" Height="97"/>
+        </Button>
+        <Button Click="btnProduct2_Click" Background="Transparent" BorderBrush="Transparent" Grid.Column="2" Margin="91,223,356,167">
+            <Image Source="/GeForce 3060.png
+           " Grid.ColumnSpan="2" Width="111" Height="83"/>
+        </Button>
+        <Image x:Name="imgProduct3" Grid.Column="2" HorizontalAlignment="Left" Height="111" Margin="364,211,0,0" VerticalAlignment="Top" Width="112" Source="/GeForce 5060.jpg" Stretch="Fill"/>
+        <Image x:Name="imgProduct4" Grid.Column="1" HorizontalAlignment="Left" Height="127" Margin="87,326,0,0" VerticalAlignment="Top" Width="132" Source="/photoshop.png" Grid.ColumnSpan="2"/>
+        <Image x:Name="imgProduct5" Grid.Column="2" HorizontalAlignment="Left" Height="81" Margin="126,326,0,0" VerticalAlignment="Top" Width="72" Source="/flStudio.png"/>
+        <Image x:Name="imgProduct6" Grid.Column="2" HorizontalAlignment="Left" Height="81" Margin="384,325,0,0" VerticalAlignment="Top" Width="72" Source="/maya.png"/>
         <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="472,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47" Background="Black" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" Foreground="#FFFFC700"><Run Text="€"/><Run Language="en-ie" Text="1500"/></TextBlock>
+        <Button x:Name="btnLogIn" Content="Log In" Margin="0,10,174,0" VerticalAlignment="Top" Click="btnLogIn_Click" Width="60" HorizontalAlignment="Right" BorderThickness="1,1,1,1"  Foreground="#FF2B2424" Grid.Column="2">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="#FFD16FEF" Offset="1"/>
+                </LinearGradientBrush>
+
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect Color="#FFA2A2A2" Direction="270" ShadowDepth="3"/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnCart" Content="Cart" Margin="0,10,94,0" VerticalAlignment="Top" Click="btnCart_Click" Width="62" HorizontalAlignment="Right" RenderTransformOrigin="0.237,0.57" Grid.Column="2">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFEFFFF"/>
+                    <GradientStop Color="#FF9CFFF8" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect Color="#FFA2A2A2" Direction="270" ShadowDepth="3"/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnHistory" Content="History" Margin="0,10,16,0" VerticalAlignment="Top" Click="btnHistory_Click" Width="60" HorizontalAlignment="Right" Grid.Column="2">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFEFFFF"/>
+                    <GradientStop Color="#FF9CFFF8" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect Color="#FFA2A2A2" BlurRadius="5" ShadowDepth="3" Direction="270"/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnSearch" Content="Search" Margin="0,130,314,0" VerticalAlignment="Top" Click="btnSearch_Click" Width="62" HorizontalAlignment="Right" RenderTransformOrigin="0.237,0.57" Grid.Column="2">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFEFFFF"/>
+                    <GradientStop Color="#FF9CFFF8" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect Color="#FFA2A2A2" Direction="270" ShadowDepth="3"/>
+            </Button.Effect>
+        </Button>
 
     </Grid>
 </Window>

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:The_Assembler"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
-        Title="HighlightedProduct" Height="450" Width="800">
+        Title="HighlightedProduct" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
 
         <Border>
@@ -27,14 +27,9 @@
         <Button Content="Log In" Margin="0,10,122,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFD1B0F9" Width="61" HorizontalAlignment="Right"/>
         <Button Content="Cart" Margin="0,10,61,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFE2FFFD" Width="61" HorizontalAlignment="Right"/>
         <Button Content="History" Margin="0,10,0,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFE2FFFD" Width="61" HorizontalAlignment="Right"/>
-        <Image HorizontalAlignment="Left" Height="175" Margin="57,142,0,0" VerticalAlignment="Top" Width="272" Source="/placeholder.png">
-            <Image.Effect>
-                <DropShadowEffect/>
-            </Image.Effect>
-        </Image>
-        <TextBlock HorizontalAlignment="Left" Margin="400,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="149" FontSize="22" Background="White"><Run Language="en-ie" Text="Product Name"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="400,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" FontFamily="Segoe UI Variable Display Light" FontStyle="Italic" FontSize="16" Background="White"><Run Language="en-ie" Text="Price Here"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="400,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="339" FontFamily="Segoe UI Variable Display Light" FontStyle="Italic" FontSize="16" Background="White" Height="76"><Run Language="en-ie" Text="Product Description here"/></TextBlock>
+        <TextBlock x:Name="txtProductName" HorizontalAlignment="Left" Margin="400,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="149" FontSize="22" Background="White"><Run Language="en-ie" Text="Product Name"/></TextBlock>
+        <TextBlock x:Name="txtProductPrice" HorizontalAlignment="Left" Margin="400,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" FontFamily="Segoe UI Variable Display Light" FontStyle="Italic" FontSize="16" Background="White"><Run Language="en-ie" Text="Price Here"/></TextBlock>
+        <TextBlock x:Name="txtProductDescription" HorizontalAlignment="Left" Margin="400,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="339" FontFamily="Segoe UI Variable Display Light" FontStyle="Italic" FontSize="16" Background="White" Height="76"><Run Language="en-ie" Text="Product Description here"/></TextBlock>
         <Image HorizontalAlignment="Left" Height="47" Margin="57,322,0,0" VerticalAlignment="Top" Width="70" Source="/placeholder.png"/>
         <Image HorizontalAlignment="Left" Height="47" Margin="153,322,0,0" VerticalAlignment="Top" Width="70" Source="/placeholder.png"/>
         <Image HorizontalAlignment="Left" Height="47" Margin="250,322,0,0" VerticalAlignment="Top" Width="70" Source="/placeholder.png"/>
@@ -43,6 +38,11 @@
         <Button Content="View Similar Products" HorizontalAlignment="Left" Margin="556,360,0,0" VerticalAlignment="Top" Height="39" Width="183" Click="Button_Click" Background="#FF404C4C" FontSize="16" Foreground="White" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="150,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" FontSize="36"><Run Language="en-ie" Text="The Assembler"/></TextBlock>
         <Image HorizontalAlignment="Left" Height="155" Margin="0,20,0,0" VerticalAlignment="Top" Width="163" Source="/Screenshot_2026-10-06_113100_bg_removed.png.png"/>
-        <xctk:IntegerUpDown x:Name="myUpDownControl" Value="1"  Minimum="1" Maximum="100" Margin="500,312,246,89" FontSize="16"/>
+        <xctk:IntegerUpDown x:Name="myUpDownControl" Value="1"  Minimum="1" Maximum="100" Margin="500,300,230,79" FontSize="16"/>
+        <Image x:Name="imgProductImage" HorizontalAlignment="Left" Height="175" Margin="57,142,0,0" VerticalAlignment="Top" Width="272" Source="/placeholder.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
     </Grid>
 </Window>
