@@ -1,15 +1,15 @@
-﻿<Window x:Class="The_Assembler.Cart"
+<Window x:Class="The_Assembler.Cart"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:The_Assembler"
         mc:Ignorable="d"
-        Title="Cart" Height="450" Width="800">
+        Title="Cart"
+        Height="557"
+        Width="862">
+
     <Grid>
-        <Button Content="Log In" Margin="0,10,122,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFD1B0F9" Width="61" HorizontalAlignment="Right"/>
-        <Button Content="Cart" Margin="0,10,61,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFE2FFFD" Width="61" HorizontalAlignment="Right"/>
-        <Button Content="History" Margin="0,10,0,0" VerticalAlignment="Top" Click="Button_Click" Background="#FFE2FFFD" Width="61" HorizontalAlignment="Right"/>
         <Border>
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0.3">
@@ -18,40 +18,218 @@
                 </LinearGradientBrush>
             </Border.Background>
         </Border>
-        
-        <Button Content="Log In" Margin="0,10,181,0" VerticalAlignment="Top" Click="Button_Click" Width="61" HorizontalAlignment="Right" BorderThickness="1,1,1,1"  Foreground="#FF2B2424">
+
+        <Button Content="Log In"
+                Margin="0,10,181,0"
+                VerticalAlignment="Top"
+                Width="61"
+                HorizontalAlignment="Right"
+                BorderThickness="1"
+                Foreground="#FF2B2424"
+                FontFamily="Segoe UI Semilight"
+                BorderBrush="#FFDDDDDD">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="White"/>
                     <GradientStop Color="#FFD16FEF" Offset="1"/>
                 </LinearGradientBrush>
+            </Button.Background>
 
-            </Button.Background>
             <Button.Effect>
                 <DropShadowEffect Color="#FFA2A2A2" Direction="270" ShadowDepth="3"/>
             </Button.Effect>
         </Button>
-        <Button Content="Cart" Margin="0,10,101,0" VerticalAlignment="Top" Click="Button_Click" Width="62" HorizontalAlignment="Right" RenderTransformOrigin="0.237,0.57">
+
+        <Button Content="Main"
+                Margin="0,10,101,0"
+                VerticalAlignment="Top"
+                Click="btnMain_Click"
+                Width="62"
+                HorizontalAlignment="Right"
+                RenderTransformOrigin="0.237,0.57"
+                FontFamily="Segoe UI Semilight"
+                BorderBrush="#FFDDDDDD">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFFEFFFF"/>
                     <GradientStop Color="#FF9CFFF8" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
+
             <Button.Effect>
                 <DropShadowEffect Color="#FFA2A2A2" Direction="270" ShadowDepth="3"/>
             </Button.Effect>
         </Button>
-        <Button Content="History" Margin="0,10,23,0" VerticalAlignment="Top" Click="Button_Click" Width="61" HorizontalAlignment="Right">
+
+        <Button Content="History"
+                Margin="0,10,23,0"
+                VerticalAlignment="Top"
+                Width="61"
+                HorizontalAlignment="Right"
+                FontFamily="Segoe UI Semilight"
+                BorderBrush="#FFDDDDDD">
+
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFFEFFFF"/>
                     <GradientStop Color="#FF9CFFF8" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
+
             <Button.Effect>
                 <DropShadowEffect Color="#FFA2A2A2" BlurRadius="5" ShadowDepth="3" Direction="270"/>
             </Button.Effect>
         </Button>
+
+        <Image HorizontalAlignment="Center"
+               Height="452"
+               Margin="0,60,0,0"
+               VerticalAlignment="Top"
+               Width="776"
+               Source="/White.png"
+               Stretch="Fill">
+
+            <Image.Effect>
+                <DropShadowEffect Color="#FF8C8C8C"
+                                  ShadowDepth="6"
+                                  Direction="270"
+                                  BlurRadius="14"
+                                  RenderingBias="Performance"/>
+            </Image.Effect>
+        </Image>
+
+        <!-- Shopping cart -->
+        <Border Grid.Column="0"
+                BorderBrush="#D0D6DC"
+                BorderThickness="1"
+                CornerRadius="4"
+                Padding="11"
+                VerticalAlignment="Top"
+                Margin="67,112,66,0"
+                Height="159">
+
+            <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}"
+                      Margin="-2"/>
+        </Border>
+
+        <!-- Order summary -->
+        <Border Grid.Column="0"
+                BorderBrush="#D0D6DC"
+                BorderThickness="1"
+                CornerRadius="4"
+                Padding="11"
+                VerticalAlignment="Top"
+                Margin="438,315,66,0"
+                Height="180">
+
+            <Grid>
+
+                <!-- Guest checkout -->
+                <Button Content="Proceed as a Guest"
+                        Margin="10,94,174,4"
+                        BorderBrush="#FFDDDDDD"
+                        FontFamily="Segoe UI Semilight"
+                        Height="34">
+
+                    <Button.Effect>
+                        <DropShadowEffect Color="#FFA2A2A2"
+                                          Direction="270"
+                                          ShadowDepth="3"/>
+                    </Button.Effect>
+
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="White"/>
+                            <GradientStop Color="#FF9CFFF8" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+
+                <!-- Checkout -->
+                <Button Content="Checkout"
+                        Margin="174,94,10,4"
+                        BorderBrush="#FFDDDDDD"
+                        FontFamily="Segoe UI Semilight"
+                        Height="34">
+
+                    <Button.Effect>
+                        <DropShadowEffect Color="#FFA2A2A2"
+                                          Direction="270"
+                                          ShadowDepth="3"/>
+                    </Button.Effect>
+
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="White"/>
+                            <GradientStop Color="#FFD16FEF" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+
+                <Label Content="Total:" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="24" FontFamily="Segoe UI Semilight" Margin="10,0,0,0"/>
+
+                <TextBox HorizontalAlignment="Left"
+                         Margin="274,3,0,0"
+                         TextWrapping="Wrap"
+                         VerticalAlignment="Top"
+                         Width="58"
+                         Height="22"
+                         BorderBrush="White"
+                         Background="White"
+                         Text="324.67$"/>
+
+                <TextBox HorizontalAlignment="Left"
+                         Margin="274,31,0,0"
+                         TextWrapping="Wrap"
+                         VerticalAlignment="Top"
+                         Width="58"
+                         BorderBrush="White"
+                         Background="White"
+                         Text="Free"
+                         FontFamily="Segoe UI Semilight"/>
+
+                <Label Content="Subtotal"
+                       HorizontalAlignment="Left"
+                       Margin="12,-1,0,0"
+                       VerticalAlignment="Top"
+                       Height="26"
+                       Width="67"
+                       FontFamily="Segoe UI Semilight"/>
+
+                <Label Content="Shipping"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Top"
+                       Width="67"
+                       Margin="13,27,0,0"
+                       FontFamily="Segoe UI Semilight"/>
+
+                <TextBox HorizontalAlignment="Left"
+                         Margin="248,0,0,0"
+                         TextWrapping="Wrap"
+                         VerticalAlignment="Center"
+                         Width="84"
+                         Height="30"
+                         FontSize="22"
+                         BorderBrush="White"
+                         Text="324.67$"
+                         FontFamily="Segoe UI Semilight"/>
+            </Grid>
+        </Border>
+
+        <!-- Headings -->
+        <Label VerticalAlignment="Top"
+               Margin="67,74,0,0"
+               HorizontalAlignment="Left"
+               Content="Cart"
+               FontSize="24"/>
+
+        <Label Content="Order Summary"
+               HorizontalAlignment="Left"
+               Margin="438,271,0,0"
+               VerticalAlignment="Top"
+               FontSize="22"/>
+
     </Grid>
 </Window>
