@@ -21,20 +21,37 @@ namespace The_Assembler
             InitializeComponent();
         }
 
-        private void BtnLogIn_Click(object sender, RoutedEventArgs e)
+        private void btnLogIn_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void BtnCart_Click(object sender, RoutedEventArgs e)
+        private void btnCart_Click(object sender, RoutedEventArgs e)
         {
             Cart cartWindow = new Cart();
             cartWindow.Show();
         }
 
-        private void BtnHistory_Click(object sender, RoutedEventArgs e)
+        private void btnHistory_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnProduct1_Click(object sender, RoutedEventArgs e)
+        {
+            HighlightedProduct highlightedProductWindow = new HighlightedProduct();
+            highlightedProductWindow.Show();
+        }
+
+        private void btnProduct2_Click(object sender, RoutedEventArgs e)
+        {
+            HighlightedProduct highlightedProductWindow = new HighlightedProduct();
+            highlightedProductWindow.Show();
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
