@@ -1,4 +1,4 @@
-﻿using Microsoft.Data.SqlClient;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Microsoft.Data.SqlClient;
 
 namespace The_Assembler
 {
@@ -42,9 +43,13 @@ namespace The_Assembler
         {
             using (SqlDataReader read = HighlightedProducts.getDesiredProduct(productID))
             {
-                txtProductName.Text = read["name"].ToString();
-                txtProductPrice.Text = read["price"].ToString();
-                txtProductDescription.Text = read["description"].ToString();
+                if (read.Read())
+                {
+                    txtProductName.Text = read["ProductName"].ToString();
+                    txtProductPrice.Text = read["Price"].ToString();
+                    txtProductDescription.Text = read["Description"].ToString();
+                }
+
             }
         }
     }

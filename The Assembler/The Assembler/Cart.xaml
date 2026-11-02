@@ -10,11 +10,7 @@
         Width="862">
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="233*"/>
-            <RowDefinition Height="308*"/>
-        </Grid.RowDefinitions>
-        <Border Grid.RowSpan="2">
+        <Border>
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0.3">
                     <GradientStop Color="White" Offset="0"/>
@@ -93,7 +89,7 @@
                VerticalAlignment="Top"
                Width="776"
                Source="/White.png"
-               Stretch="Fill" Grid.RowSpan="2">
+               Stretch="Fill">
 
             <Image.Effect>
                 <DropShadowEffect Color="#FF8C8C8C"
@@ -104,6 +100,7 @@
             </Image.Effect>
         </Image>
 
+        <!-- Shopping cart -->
         <Border Grid.Column="0"
                 BorderBrush="#D0D6DC"
                 BorderThickness="1"
@@ -111,23 +108,25 @@
                 Padding="11"
                 VerticalAlignment="Top"
                 Margin="67,112,66,0"
-                Height="159" Grid.RowSpan="2">
+                Height="159">
 
             <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}"
                       Margin="-2"/>
         </Border>
 
+        <!-- Order summary -->
         <Border Grid.Column="0"
                 BorderBrush="#D0D6DC"
                 BorderThickness="1"
                 CornerRadius="4"
                 Padding="11"
                 VerticalAlignment="Top"
-                Margin="438,82,66,0"
-                Height="180" Grid.Row="1">
+                Margin="438,315,66,0"
+                Height="180">
 
             <Grid>
 
+                <!-- Guest checkout -->
                 <Button Content="Proceed as a Guest"
                         Margin="10,94,174,4"
                         BorderBrush="#FFDDDDDD"
@@ -171,25 +170,25 @@
 
                 <Label Content="Total:" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="24" FontFamily="Segoe UI Semilight" Margin="10,0,0,0"/>
 
-                <TextBox x:Name="subSum" HorizontalAlignment="Left"
-                         Margin="90,3,0,0"
+                <TextBox HorizontalAlignment="Left"
+                         Margin="274,3,0,0"
                          TextWrapping="Wrap"
                          VerticalAlignment="Top"
-                         Width="211"
+                         Width="58"
                          Height="22"
                          BorderBrush="White"
                          Background="White"
-                         Text="324.67$" FlowDirection="RightToLeft" SelectionBrush="White" IsReadOnly="True"/>
+                         Text="324.67$"/>
 
-                <TextBox x:Name="shipSum" HorizontalAlignment="Left"
-                         Margin="243,31,0,0"
+                <TextBox HorizontalAlignment="Left"
+                         Margin="274,31,0,0"
                          TextWrapping="Wrap"
                          VerticalAlignment="Top"
                          Width="58"
                          BorderBrush="White"
                          Background="White"
                          Text="Free"
-                         FontFamily="Segoe UI Semilight" FlowDirection="RightToLeft" SelectionBrush="White" IsReadOnly="True"/>
+                         FontFamily="Segoe UI Semilight"/>
 
                 <Label Content="Subtotal"
                        HorizontalAlignment="Left"
@@ -206,18 +205,20 @@
                        Margin="13,27,0,0"
                        FontFamily="Segoe UI Semilight"/>
 
-                <TextBox x:Name="totalSum" HorizontalAlignment="Left"
-                         Margin="79,0,0,0"
+                <TextBox HorizontalAlignment="Left"
+                         Margin="248,0,0,0"
                          TextWrapping="Wrap"
                          VerticalAlignment="Center"
-                         Width="222"
+                         Width="84"
                          Height="30"
                          FontSize="22"
                          BorderBrush="White"
                          Text="324.67$"
-                         FontFamily="Segoe UI Semilight" FlowDirection="RightToLeft" SelectionBrush="White" IsReadOnly="True"/>
+                         FontFamily="Segoe UI Semilight"/>
             </Grid>
         </Border>
+
+        <!-- Headings -->
         <Label VerticalAlignment="Top"
                Margin="67,74,0,0"
                HorizontalAlignment="Left"
@@ -226,9 +227,9 @@
 
         <Label Content="Order Summary"
                HorizontalAlignment="Left"
-               Margin="438,38,0,0"
+               Margin="438,271,0,0"
                VerticalAlignment="Top"
-               FontSize="22" Grid.Row="1"/>
+               FontSize="22"/>
 
     </Grid>
 </Window>

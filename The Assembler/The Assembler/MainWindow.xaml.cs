@@ -44,14 +44,12 @@ namespace The_Assembler
 
         private void btnProduct1_Click(object sender, RoutedEventArgs e)
         {
-            HighlightedProduct highlightedProductWindow = new HighlightedProduct();
-            highlightedProductWindow.Show();
+            HighlightedProducts.openHighlightedProduct(0);
         }
 
         private void btnProduct2_Click(object sender, RoutedEventArgs e)
         {
-            HighlightedProduct highlightedProductWindow = new HighlightedProduct();
-            highlightedProductWindow.Show();
+            HighlightedProducts.openHighlightedProduct(1);
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)

@@ -24,7 +24,7 @@ namespace The_Assembler
 
         private void btnMain_Click(object sender, RoutedEventArgs e)
         {
-            
+
         }
     }
 }
