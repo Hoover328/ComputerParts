@@ -22,7 +22,7 @@ namespace The_Assembler
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btnMain_Click(object sender, RoutedEventArgs e)
         {
             
         }

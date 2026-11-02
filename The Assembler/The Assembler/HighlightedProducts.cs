@@ -1,4 +1,4 @@
-﻿using MySqlConnector;
+﻿using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -8,11 +8,11 @@ namespace The_Assembler
 {
     internal class HighlightedProducts
     {
-        public static MySqlDataReader getDesiredProduct(int productID)
+        public static SqlDataReader getDesiredProduct(int productID)
         {
             string sqlQuery = "SELECT * FROM Products WHERE ProductID = " + productID;
 
-            MySqlConnection conn = DatabaseAssembler.OpenConnection();
+            SqlConnection conn = DatabaseAssembler.OpenConnection();
             return DatabaseAssembler.ExecuteSingleRowQuery(sqlQuery, conn);
         }
 

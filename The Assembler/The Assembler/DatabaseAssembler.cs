@@ -1,56 +1,51 @@
-﻿using MySqlConnector;
-using System;
+﻿using System;
 using System.Data;
 using System.Threading.Tasks;
+using Microsoft.Data.SqlClient;
 
 namespace The_Assembler
 {
     internal class DatabaseAssembler
     {
-        private static string GetConnectionString() 
+        private static string GetConnectionString()
         {
-            var builder = new MySqlConnectionStringBuilder
-            {
-                Server = "mysqlserverassembly.database.windows.net",
-                Database = "mySampleDatabase",
-                UserID = "azureuser",
-                Password = "admin123!",
-                SslMode = MySqlSslMode.Required,
-            };
-
-            return builder.ConnectionString;
+            // Placed your Azure SQL connection string directly here
+            return @"Server=tcp:mysqlserverassembly.database.windows.net,1433;Initial Catalog=mySampleDatabase;User ID=azureuser;Password=admin123!;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         }
 
-        public static MySqlConnection OpenConnection()
+        public static SqlConnection OpenConnection()
         {
-            var connection = new MySqlConnection(GetConnectionString());
+            var connection = new SqlConnection(GetConnectionString());
             connection.Open();
             return connection;
         }
 
-        public static DataSet executeMultiRowQuery(string query)
+
+
+        public static DataSet ExecuteMultiRowQuery(string query)
         {
             using (var connection = OpenConnection())
-            using (var command = new MySqlCommand(query, connection))
-            using (var adapter = new MySqlDataAdapter(command))
+            using (var command = new SqlCommand(query, connection))
+            using (var adapter = new SqlDataAdapter(command))
             {
                 DataSet dataSet = new DataSet();
                 adapter.Fill(dataSet);
                 return dataSet;
             }
         }
-        public static MySqlDataReader ExecuteSingleRowQuery(string query, MySqlConnection conn)
+
+        public static SqlDataReader ExecuteSingleRowQuery(string query, SqlConnection conn)
         {
-            var cmd = new MySqlCommand(query, conn);
-            MySqlDataReader dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+            var cmd = new SqlCommand(query, conn);
+            SqlDataReader dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
             return dr;
         }
 
-        //used for insert, update, delete, doesnt return any data
-        public static void executeNonQuery(string query)
+        // Used for insert, update, delete, doesn't return any data
+        public static void ExecuteNonQuery(string query)
         {
             using (var connection = OpenConnection())
-            using (var command = new MySqlCommand(query, connection))
+            using (var command = new SqlCommand(query, connection))
             {
                 command.ExecuteNonQuery();
             }

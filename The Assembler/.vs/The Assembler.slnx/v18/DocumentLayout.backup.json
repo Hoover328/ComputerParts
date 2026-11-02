@@ -1,45 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\",
+  "WorkspaceRootPath": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\lungweegee\\desktop\\comppp\\the assembler\\the assembler\\highlightedproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compmpd\\the assembler\\the assembler\\highlightedproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\highlightedproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\lungweegee\\desktop\\comppp\\the assembler\\the assembler\\highlightedproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\highlightedproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\lungweegee\\desktop\\comppp\\the assembler\\the assembler\\highlightedproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compmpd\\the assembler\\the assembler\\highlightedproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\highlightedproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\lungweegee\\desktop\\comppp\\the assembler\\the assembler\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\lungweegee\\desktop\\comppp\\the assembler\\the assembler\\databaseassembler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compmpd\\the assembler\\the assembler\\databaseassembler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\databaseassembler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\lungweegee\\desktop\\comppp\\the assembler\\the assembler\\cart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compmpd\\the assembler\\the assembler\\cart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\cart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\lungweegee\\desktop\\comppp\\the assembler\\the assembler\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compmpd\\the assembler\\the assembler\\cart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\cart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compmpd\\the assembler\\the assembler\\highlightedproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\highlightedproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compmpd\\the assembler\\the assembler\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compmpd\\the assembler\\the assembler\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\lungweegee\\desktop\\comppp\\the assembler\\the assembler\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compmpd\\the assembler\\the assembler\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\lungweegee\\desktop\\comppp\\the assembler\\the assembler\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compmpd\\the assembler\\the assembler\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\lungweegee\\desktop\\comppp\\the assembler\\the assembler\\geforce 4060.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compmpd\\the assembler\\the assembler\\geforce 4060.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\geforce 4060.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     }
   ],
@@ -50,43 +54,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "Cart.xaml",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\Cart.xaml",
+              "RelativeDocumentMoniker": "The Assembler\\Cart.xaml",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\Cart.xaml",
+              "RelativeToolTip": "The Assembler\\Cart.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-02T09:59:00.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HighlightedProducts.cs",
-              "DocumentMoniker": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\HighlightedProducts.cs",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\HighlightedProducts.cs",
               "RelativeDocumentMoniker": "The Assembler\\HighlightedProducts.cs",
-              "ToolTip": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\HighlightedProducts.cs",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\HighlightedProducts.cs",
               "RelativeToolTip": "The Assembler\\HighlightedProducts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-01T15:04:09.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "DatabaseAssembler.cs",
-              "DocumentMoniker": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\DatabaseAssembler.cs",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\DatabaseAssembler.cs",
               "RelativeDocumentMoniker": "The Assembler\\DatabaseAssembler.cs",
-              "ToolTip": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\DatabaseAssembler.cs",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\DatabaseAssembler.cs",
               "RelativeToolTip": "The Assembler\\DatabaseAssembler.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T09:10:48.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Cart.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\Cart.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\Cart.xaml.cs",
               "RelativeDocumentMoniker": "The Assembler\\Cart.xaml.cs",
-              "ToolTip": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\Cart.xaml.cs",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\Cart.xaml.cs",
               "RelativeToolTip": "The Assembler\\Cart.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-01T14:53:45.898Z",
               "EditorCaption": ""
@@ -95,22 +111,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HighlightedProduct.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\HighlightedProduct.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\HighlightedProduct.xaml.cs",
               "RelativeDocumentMoniker": "The Assembler\\HighlightedProduct.xaml.cs",
-              "ToolTip": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\HighlightedProduct.xaml.cs",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\HighlightedProduct.xaml.cs",
               "RelativeToolTip": "The Assembler\\HighlightedProduct.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowAAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-01T14:53:33.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "HighlightedProduct.xaml",
-              "DocumentMoniker": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\HighlightedProduct.xaml",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\HighlightedProduct.xaml",
               "RelativeDocumentMoniker": "The Assembler\\HighlightedProduct.xaml",
-              "ToolTip": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\HighlightedProduct.xaml",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\HighlightedProduct.xaml",
               "RelativeToolTip": "The Assembler\\HighlightedProduct.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-10-27T11:08:59.894Z",
@@ -118,24 +134,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "The Assembler\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\MainWindow.xaml.cs",
               "RelativeToolTip": "The Assembler\\MainWindow.xaml.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAA3wC8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T10:33:03.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T10:33:03.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\MainWindow.xaml",
               "RelativeDocumentMoniker": "The Assembler\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\MainWindow.xaml",
               "RelativeToolTip": "The Assembler\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-29T10:33:04.321Z",
@@ -143,35 +158,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "The Assembler\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\AssemblyInfo.cs",
               "RelativeToolTip": "The Assembler\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T10:30:51.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-20T10:30:51.396Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GeForce 4060.png",
-              "DocumentMoniker": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\GeForce 4060.png",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\GeForce 4060.png",
               "RelativeDocumentMoniker": "The Assembler\\GeForce 4060.png",
-              "ToolTip": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\GeForce 4060.png",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\GeForce 4060.png",
               "RelativeToolTip": "The Assembler\\GeForce 4060.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2026-10-20T10:27:24.703Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\App.xaml",
               "RelativeDocumentMoniker": "The Assembler\\App.xaml",
-              "ToolTip": "C:\\Users\\Lungweegee\\Desktop\\Comppp\\The Assembler\\The Assembler\\App.xaml",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compmpd\\The Assembler\\The Assembler\\App.xaml",
               "RelativeToolTip": "The Assembler\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-10-06T10:23:40.791Z",

@@ -1,4 +1,4 @@
-﻿using MySqlConnector;
+﻿using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -40,7 +40,7 @@ namespace The_Assembler
         }
         public void loadDesiredProduct(int productID)
         {
-            using (MySqlDataReader read = HighlightedProducts.getDesiredProduct(productID))
+            using (SqlDataReader read = HighlightedProducts.getDesiredProduct(productID))
             {
                 txtProductName.Text = read["name"].ToString();
                 txtProductPrice.Text = read["price"].ToString();
