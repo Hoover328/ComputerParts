@@ -9,7 +9,6 @@ namespace The_Assembler
     {
         private static string GetConnectionString()
         {
-            // Placed your Azure SQL connection string directly here
             return @"Server=tcp:mysqlserverassembly.database.windows.net,1433;Initial Catalog=mySampleDatabase;User ID=azureuser;Password=admin123!;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         }
 
@@ -19,8 +18,6 @@ namespace The_Assembler
             connection.Open();
             return connection;
         }
-
-
 
         public static DataSet ExecuteMultiRowQuery(string query)
         {
@@ -41,7 +38,6 @@ namespace The_Assembler
             return dr;
         }
 
-        // Used for insert, update, delete, doesn't return any data
         public static void ExecuteNonQuery(string query)
         {
             using (var connection = OpenConnection())

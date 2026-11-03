@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:The_Assembler"
-        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" x:Class="The_Assembler.Cart"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" x:Class="The_Assembler.frmCart"
         mc:Ignorable="d"
         Title="Cart"
         Height="528"

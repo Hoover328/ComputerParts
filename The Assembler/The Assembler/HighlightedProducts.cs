@@ -19,7 +19,7 @@ namespace The_Assembler
 
         public static void openHighlightedProduct(int productID)
         {
-            HighlightedProduct highlightedProductWindow = new HighlightedProduct();
+            frmHighlightedProduct highlightedProductWindow = new frmHighlightedProduct();
             highlightedProductWindow.loadDesiredProduct(productID);
             highlightedProductWindow.Show();
         }

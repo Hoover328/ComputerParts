@@ -14,9 +14,9 @@ namespace The_Assembler
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class frmMainWindow : Window
     {
-        public MainWindow()
+        public frmMainWindow()
         {
             InitializeComponent();
         }
@@ -28,7 +28,7 @@ namespace The_Assembler
 
         private void btnCart_Click(object sender, RoutedEventArgs e)
         {
-            Cart cartWindow = new Cart();
+            frmCart cartWindow = new frmCart();
             cartWindow.Show();
         }
 
@@ -52,9 +52,35 @@ namespace The_Assembler
             HighlightedProducts.openHighlightedProduct(1);
         }
 
+        private void btnProduct3_Click(object sender, RoutedEventArgs e)
+        {
+            HighlightedProducts.openHighlightedProduct(3);
+        }
+
+        private void btnProduct4_Click(object sender, RoutedEventArgs e)
+        {
+            HighlightedProducts.openHighlightedProduct(4);
+        }
+
+        private void btnProduct5_Click(object sender, RoutedEventArgs e)
+        {
+            HighlightedProducts.openHighlightedProduct(5);
+        }
+
+        private void btnProduct6_Click(object sender, RoutedEventArgs e)
+        {
+            HighlightedProducts.openHighlightedProduct(6);
+        }
+
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+        }
+
+        private void btnAdmin_Click(object sender, RoutedEventArgs e)
+        {
+            frmAdmin adminWindow = new frmAdmin();
+            adminWindow.Show();
         }
     }
 }

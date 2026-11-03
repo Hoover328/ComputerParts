@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KWrsrdU+lEI=",
+  "dgSpecHash": "AAUm7aMOte8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Cpmppp\\The Assembler\\The Assembler\\The Assembler.csproj",
+  "projectFilePath": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\The Assembler.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\StudentHarveySmith(T\\.nuget\\packages\\azure.core\\1.51.1\\azure.core.1.51.1.nupkg.sha512",
     "C:\\Users\\StudentHarveySmith(T\\.nuget\\packages\\azure.identity\\1.18.0\\azure.identity.1.18.0.nupkg.sha512",

@@ -15,9 +15,9 @@ namespace The_Assembler
     /// <summary>
     /// Interaction logic for Products.xaml
     /// </summary>
-    public partial class Products : Window
+    public partial class frmProducts : Window
     {
-        public Products()
+        public frmProducts()
         {
             InitializeComponent();
         }

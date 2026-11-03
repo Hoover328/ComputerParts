@@ -13,16 +13,26 @@ using System.Windows.Shapes;
 namespace The_Assembler
 {
     /// <summary>
-    /// Interaction logic for Cart.xaml
+    /// Interaction logic for frmAdmin.xaml
     /// </summary>
-    public partial class Cart : Window
+    public partial class frmAdmin : Window
     {
-        public Cart()
+        public frmAdmin()
         {
             InitializeComponent();
         }
 
-        private void btnMain_Click(object sender, RoutedEventArgs e)
+        private void btnLogIn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnCart_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnHistory_Click(object sender, RoutedEventArgs e)
         {
 
         }

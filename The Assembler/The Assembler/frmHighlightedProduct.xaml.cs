@@ -17,9 +17,9 @@ namespace The_Assembler
     /// <summary>
     /// Interaction logic for HighlightedProduct.xaml
     /// </summary>
-    public partial class HighlightedProduct : Window
+    public partial class frmHighlightedProduct : Window
     {
-        public HighlightedProduct()
+        public frmHighlightedProduct()
         {
             InitializeComponent();
             loadDesiredProduct(1);
@@ -51,6 +51,22 @@ namespace The_Assembler
                 }
 
             }
+        }
+
+        private void btnLogIn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnCart_Click(object sender, RoutedEventArgs e)
+        {
+            frmCart cartWindow = new frmCart();
+            cartWindow.Show();
+        }
+
+        private void btnHistory_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
