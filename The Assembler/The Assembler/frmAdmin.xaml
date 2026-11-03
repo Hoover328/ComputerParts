@@ -14,7 +14,7 @@
                 <ColumnDefinition Width="572*"/>
             </Grid.ColumnDefinitions>
 
-            <Border Grid.ColumnSpan="3" Margin="0,39,0,0">
+            <Border Grid.ColumnSpan="3" Margin="0,39,0,38">
                 <Border.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0.3">
                         <GradientStop Color="White" Offset="0"/>
@@ -68,7 +68,7 @@
             </Button>
             <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="105,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="24" Grid.ColumnSpan="2" FontWeight="Bold"><Run Language="en-ie" Text="Add a Product"/></TextBlock>
             <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="269,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="24" FontWeight="Bold"><Run Language="en-ie" Text="Add a Product"/></TextBlock>
-            <Button x:Name="btnAddProduct" Content="Add Product" Margin="0,284,536,0" VerticalAlignment="Top" Click="btnLogIn_Click" Width="90" HorizontalAlignment="Right" BorderThickness="1,1,1,1"  Foreground="#FF2B2424" Grid.Column="1" Grid.ColumnSpan="2" Height="44">
+            <Button x:Name="btnAddProduct" Content="Add Product" Margin="0,284,536,0" VerticalAlignment="Top" Click="btnAddProduct_Click" Width="90" HorizontalAlignment="Right" BorderThickness="1,1,1,1"  Foreground="#FF2B2424" Grid.Column="1" Grid.ColumnSpan="2" Height="44">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="White"/>
@@ -80,7 +80,7 @@
                     <DropShadowEffect Color="#FFA2A2A2" Direction="270" ShadowDepth="3"/>
                 </Button.Effect>
             </Button>
-            <Button x:Name="btnUpdateProduct" Content="Update Product" Margin="0,284,175,0" VerticalAlignment="Top" Click="btnLogIn_Click" Width="90" HorizontalAlignment="Right" BorderThickness="1,1,1,1"  Foreground="#FF2B2424" Grid.Column="2" Height="44">
+            <Button x:Name="btnUpdateProduct" Content="Update Product" Margin="0,284,175,0" VerticalAlignment="Top" Click="btnUpdateProduct_Click" Width="90" HorizontalAlignment="Right" BorderThickness="1,1,1,1"  Foreground="#FF2B2424" Grid.Column="2" Height="44">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="White"/>

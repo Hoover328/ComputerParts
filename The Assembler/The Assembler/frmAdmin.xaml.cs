@@ -36,5 +36,17 @@ namespace The_Assembler
         {
 
         }
+
+        private void btnAddProduct_Click(object sender, RoutedEventArgs e)
+        {
+            frmAddProduct addProductWindow = new frmAddProduct();
+            addProductWindow.Show();
+        }
+
+        private void btnUpdateProduct_Click(object sender, RoutedEventArgs e)
+        {
+            frmUpdateProduct UpdateProductWindow = new frmUpdateProduct();
+            UpdateProductWindow.Show();
+        }
     }
 }
