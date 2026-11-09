@@ -8,7 +8,8 @@
         mc:Ignorable="d"
         Title="Cart"
         Height="528"
-        Width="862">
+        Width="862"
+    ResizeMode="NoResize">
 
     <Grid Margin="0,0,0,46">
         <Grid.RowDefinitions>

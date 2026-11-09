@@ -727,3 +727,7 @@ C:\Users\StudentHarveySmith(T\Desktop\Compppp\The Assembler\The Assembler\obj\De
 C:\Users\StudentHarveySmith(T\Desktop\Compppp\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler.pdb
 C:\Users\StudentHarveySmith(T\Desktop\Compppp\The Assembler\The Assembler\obj\Debug\net10.0-windows\The Assembler.genruntimeconfig.cache
 C:\Users\StudentHarveySmith(T\Desktop\Compppp\The Assembler\The Assembler\obj\Debug\net10.0-windows\ref\The Assembler.dll
+C:\Users\StudentHarveySmith(T\Desktop\Compp\The Assembler\The Assembler\obj\Debug\net10.0-windows\frmAddProduct.g.cs
+C:\Users\StudentHarveySmith(T\Desktop\Compp\The Assembler\The Assembler\obj\Debug\net10.0-windows\frmUpdateProduct.g.cs
+C:\Users\StudentHarveySmith(T\Desktop\Compp\The Assembler\The Assembler\obj\Debug\net10.0-windows\frmAddProduct.baml
+C:\Users\StudentHarveySmith(T\Desktop\Compp\The Assembler\The Assembler\obj\Debug\net10.0-windows\frmUpdateProduct.baml

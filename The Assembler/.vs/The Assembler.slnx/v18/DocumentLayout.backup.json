@@ -1,45 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\",
+  "WorkspaceRootPath": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compppp\\the assembler\\the assembler\\frmaddproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmupdateproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmupdateproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmaddproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmaddproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compppp\\the assembler\\the assembler\\databaseassembler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\databaseassembler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compppp\\the assembler\\the assembler\\frmmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compppp\\the assembler\\the assembler\\frmmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compppp\\the assembler\\the assembler\\frmaddproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmaddproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compppp\\the assembler\\the assembler\\frmhighlightedproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmhighlightedproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compppp\\the assembler\\the assembler\\highlightedproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\highlightedproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\highlightedproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compppp\\the assembler\\the assembler\\frmadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmupdateproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmupdateproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmaddproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmaddproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\databaseassembler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\databaseassembler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmproducts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmproducts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmhighlightedproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmhighlightedproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compppp\\the assembler\\the assembler\\frmadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmcart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmcart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compppp\\the assembler\\the assembler\\frmhighlightedproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmhighlightedproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmhighlightedproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,41 +66,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "frmUpdateProduct.xaml",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmUpdateProduct.xaml",
+              "RelativeDocumentMoniker": "The Assembler\\frmUpdateProduct.xaml",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmUpdateProduct.xaml",
+              "RelativeToolTip": "The Assembler\\frmUpdateProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-03T12:28:02.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmUpdateProduct.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmUpdateProduct.xaml.cs",
+              "RelativeDocumentMoniker": "The Assembler\\frmUpdateProduct.xaml.cs",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmUpdateProduct.xaml.cs",
+              "RelativeToolTip": "The Assembler\\frmUpdateProduct.xaml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T12:30:02.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HighlightedProducts.cs",
-              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\HighlightedProducts.cs",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\HighlightedProducts.cs",
               "RelativeDocumentMoniker": "The Assembler\\HighlightedProducts.cs",
-              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\HighlightedProducts.cs",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\HighlightedProducts.cs",
               "RelativeToolTip": "The Assembler\\HighlightedProducts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAIsAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T11:13:52.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmMainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmMainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "The Assembler\\frmMainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmMainWindow.xaml.cs",
-              "RelativeToolTip": "The Assembler\\frmMainWindow.xaml.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAkwEoAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "frmAddProduct.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmAddProduct.xaml.cs",
+              "RelativeDocumentMoniker": "The Assembler\\frmAddProduct.xaml.cs",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmAddProduct.xaml.cs*",
+              "RelativeToolTip": "The Assembler\\frmAddProduct.xaml.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T11:06:19.095Z",
+              "WhenOpened": "2026-11-03T11:16:09.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "DatabaseAssembler.cs",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\DatabaseAssembler.cs",
+              "RelativeDocumentMoniker": "The Assembler\\DatabaseAssembler.cs",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\DatabaseAssembler.cs",
+              "RelativeToolTip": "The Assembler\\DatabaseAssembler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwC0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T11:15:22.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmProducts.xaml",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmProducts.xaml",
+              "RelativeDocumentMoniker": "The Assembler\\frmProducts.xaml",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmProducts.xaml",
+              "RelativeToolTip": "The Assembler\\frmProducts.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-09T10:03:51.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "frmMainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmMainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmMainWindow.xaml",
               "RelativeDocumentMoniker": "The Assembler\\frmMainWindow.xaml",
-              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmMainWindow.xaml",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmMainWindow.xaml",
               "RelativeToolTip": "The Assembler\\frmMainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-11-03T11:06:17.556Z",
@@ -92,50 +162,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmAddProduct.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmAddProduct.xaml.cs",
-              "RelativeDocumentMoniker": "The Assembler\\frmAddProduct.xaml.cs",
-              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmAddProduct.xaml.cs",
-              "RelativeToolTip": "The Assembler\\frmAddProduct.xaml.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAAAGwAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T11:16:09.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DatabaseAssembler.cs",
-              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\DatabaseAssembler.cs",
-              "RelativeDocumentMoniker": "The Assembler\\DatabaseAssembler.cs",
-              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\DatabaseAssembler.cs",
-              "RelativeToolTip": "The Assembler\\DatabaseAssembler.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAUwDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T11:15:22.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmAdmin.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmAdmin.xaml.cs",
-              "RelativeDocumentMoniker": "The Assembler\\frmAdmin.xaml.cs",
-              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmAdmin.xaml.cs",
-              "RelativeToolTip": "The Assembler\\frmAdmin.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T11:22:27.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "frmAddProduct.xaml",
-              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmAddProduct.xaml",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmAddProduct.xaml",
               "RelativeDocumentMoniker": "The Assembler\\frmAddProduct.xaml",
-              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmAddProduct.xaml",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmAddProduct.xaml",
               "RelativeToolTip": "The Assembler\\frmAddProduct.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-11-03T11:08:28.437Z",
@@ -143,23 +174,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmHighlightedProduct.xaml",
-              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmHighlightedProduct.xaml",
-              "RelativeDocumentMoniker": "The Assembler\\frmHighlightedProduct.xaml",
-              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmHighlightedProduct.xaml",
-              "RelativeToolTip": "The Assembler\\frmHighlightedProduct.xaml",
+              "DocumentIndex": 10,
+              "Title": "frmCart.xaml",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmCart.xaml",
+              "RelativeDocumentMoniker": "The Assembler\\frmCart.xaml",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmCart.xaml",
+              "RelativeToolTip": "The Assembler\\frmCart.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-11-03T11:06:15.986Z",
+              "WhenOpened": "2026-11-09T10:03:16.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "frmAdmin.xaml",
-              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmAdmin.xaml",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmAdmin.xaml",
               "RelativeDocumentMoniker": "The Assembler\\frmAdmin.xaml",
-              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmAdmin.xaml",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmAdmin.xaml",
               "RelativeToolTip": "The Assembler\\frmAdmin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-11-03T10:43:32.037Z",
@@ -167,11 +198,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
+              "Title": "frmHighlightedProduct.xaml",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmHighlightedProduct.xaml",
+              "RelativeDocumentMoniker": "The Assembler\\frmHighlightedProduct.xaml",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmHighlightedProduct.xaml",
+              "RelativeToolTip": "The Assembler\\frmHighlightedProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-03T11:06:15.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmMainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmMainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "The Assembler\\frmMainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmMainWindow.xaml.cs",
+              "RelativeToolTip": "The Assembler\\frmMainWindow.xaml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAA3wEoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T11:06:19.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmAdmin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmAdmin.xaml.cs",
+              "RelativeDocumentMoniker": "The Assembler\\frmAdmin.xaml.cs",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmAdmin.xaml.cs",
+              "RelativeToolTip": "The Assembler\\frmAdmin.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwDAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T11:22:27.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "frmHighlightedProduct.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmHighlightedProduct.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmHighlightedProduct.xaml.cs",
               "RelativeDocumentMoniker": "The Assembler\\frmHighlightedProduct.xaml.cs",
-              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compppp\\The Assembler\\The Assembler\\frmHighlightedProduct.xaml.cs",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmHighlightedProduct.xaml.cs",
               "RelativeToolTip": "The Assembler\\frmHighlightedProduct.xaml.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAswBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
