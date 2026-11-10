@@ -40,22 +40,12 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="48"/>
         </Grid.RowDefinitions>
-
         <!-- Dark navigation header -->
-        <Border Grid.Row="0" Background="#303030" Margin="10,10,10,0">
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="9,0">
-                <TextBlock Text="The Assembler" Foreground="White" FontSize="16"
-                           FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,7,0"/>
-                <Button Content="Home" Style="{StaticResource NavButton}" Click="Home_Click"/>
-                <Button Content="Products" Style="{StaticResource NavButton}" Click="Products_Click"/>
-                <Button Content="Cart" Style="{StaticResource NavButton}" Click="Cart_Click"/>
-            </StackPanel>
-        </Border>
 
-        <ScrollViewer x:Name="PageScroll" Grid.Row="1" VerticalScrollBarVisibility="Auto">
+        <ScrollViewer x:Name="PageScroll" VerticalScrollBarVisibility="Auto" Grid.Row="1" Margin="0,29,0,19" Grid.RowSpan="2">
             <StackPanel Margin="42,18,42,25">
                 <TextBlock Text="Products List" FontSize="17" FontWeight="SemiBold"
-                           Margin="0,0,0,18"/>
+                           />
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="180"/>
@@ -64,13 +54,19 @@
                     </Grid.ColumnDefinitions>
 
                     <!-- Filters on the left -->
-                    <Border Grid.Column="0" BorderBrush="#D0D6DC" BorderThickness="1"
+                    <Border Grid.Column="0" BorderBrush="#D0D6DC" BorderThickness="2,2,2,2"
                             CornerRadius="4" Padding="11" VerticalAlignment="Top">
                         <StackPanel>
                             <TextBlock Text="Filters" FontSize="14" FontWeight="Bold"/>
 
                             <TextBlock Text="Category" Style="{StaticResource FilterLabel}"/>
-                            <ComboBox x:Name="CategoryCombo" Height="32" SelectedIndex="0">
+                            <ComboBox x:Name="CategoryCombo" Height="32" SelectedIndex="0" SelectionChanged="CategoryCombo_SelectionChanged" BorderBrush="#FFACACAC" OpacityMask="Black">
+                                <ComboBox.Background>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="White"/>
+                                        <GradientStop Color="#FFD16FEF" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </ComboBox.Background>
                                 <ComboBoxItem Content="All"/>
                                 <ComboBoxItem Content="CPU"/>
                                 <ComboBoxItem Content="GPU"/>
@@ -120,6 +116,12 @@
                                            VerticalAlignment="Center"/>
                                 <ComboBox x:Name="SortCombo" Width="150" Height="31"
                                           SelectionChanged="SortCombo_SelectionChanged">
+                                    <ComboBox.Background>
+                                        <LinearGradientBrush EndPoint="0,1">
+                                            <GradientStop Color="#FFF0F0F0"/>
+                                            <GradientStop Color="#FFD16FEF" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </ComboBox.Background>
                                     <ComboBoxItem Content="Featured"/>
                                     <ComboBoxItem Content="Price: Low to High"/>
                                     <ComboBoxItem Content="Price: High to Low"/>
@@ -166,11 +168,31 @@
                                    Visibility="Collapsed"/>
 
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5,0,0">
-                            <Button x:Name="PreviousButton" Content="Previous"
-                                    Style="{StaticResource PageButton}" Click="Previous_Click"/>
+                            <Button x:Name="btnPrevious" Content="Previous"
+                                    Style="{StaticResource PageButton}" Click="Previous_Click" Foreground="Black" BorderThickness="1,1,1,1">
+                                <Button.Effect>
+                                    <DropShadowEffect/>
+                                </Button.Effect>
+                                <Button.Background>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="White"/>
+                                        <GradientStop Color="#FFD16FEF" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Button.Background>
+                            </Button>
                             <StackPanel x:Name="NumberButtons" Orientation="Horizontal"/>
-                            <Button x:Name="NextButton" Content="Next" Margin="5,0,0,0"
-                                    Style="{StaticResource PageButton}" Click="Next_Click"/>
+                            <Button x:Name="btnNext" Content="Next" Margin="5,0,0,0"
+                                    Style="{StaticResource PageButton}" Click="Next_Click" Foreground="Black" Width="56" BorderThickness="1,1,1,1">
+                                <Button.Effect>
+                                    <DropShadowEffect/>
+                                </Button.Effect>
+                                <Button.Background>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="White"/>
+                                        <GradientStop Color="#FFD16FEF" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Button.Background>
+                            </Button>
                         </StackPanel>
                     </StackPanel>
                 </Grid>
@@ -182,5 +204,51 @@
                        HorizontalAlignment="Center" VerticalAlignment="Center"
                        Foreground="White" FontSize="12" FontWeight="SemiBold"/>
         </Border>
+        <Button x:Name="btnLogIn" Content="Log In" Margin="558,10,0,0" VerticalAlignment="Top" Click="btnLogIn_Click" Width="60" HorizontalAlignment="Left" BorderThickness="1,1,1,1"  Foreground="#FF2B2424">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="#FFD16FEF" Offset="1"/>
+                </LinearGradientBrush>
+
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect Color="#FFA2A2A2" Direction="270" ShadowDepth="3"/>
+            </Button.Effect>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="101" VerticalAlignment="Top" Width="164" Source="/Screenshot_2026-10-06_113100_bg_removed.png.png" Margin="10,10,0,0" Grid.RowSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="392" FontSize="36" Margin="174,34,0,0" Text="Products" Grid.RowSpan="2"/>
+        <Border Margin="0,39,0,-1" Grid.RowSpan="3" Panel.ZIndex="-1">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0.3">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="Maroon" Offset="1.1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <Button x:Name="btnCart" Content="Cart" Margin="642,10,0,0" VerticalAlignment="Top" Click="btnCart_Click" Width="62" HorizontalAlignment="Left" RenderTransformOrigin="0.237,0.57">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFEFFFF"/>
+                    <GradientStop Color="#FF9CFFF8" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect Color="#FFA2A2A2" Direction="270" ShadowDepth="3"/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="btnHistory" Content="History" Margin="724,10,0,0" VerticalAlignment="Top" Click="btnHistory_Click" Width="60" HorizontalAlignment="Left">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFEFFFF"/>
+                    <GradientStop Color="#FF9CFFF8" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect Color="#FFA2A2A2" BlurRadius="5" ShadowDepth="3" Direction="270"/>
+            </Button.Effect>
+        </Button>
+
+        <!-- Dark navigation header -->
     </Grid>
 </Window>

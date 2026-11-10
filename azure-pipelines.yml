@@ -1,31 +1,19 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
 trigger:
-  - main
+- main
 
 pool:
-  vmImage: 'windows-latest'
+  vmImage: ubuntu-latest
 
 steps:
-- task: UseDotNet@2
-  inputs:
-    packageType: 'sdk'
-    version: '8.x'
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
 
 - script: |
-    dotnet tool install --global dotnet-sonarscanner
-    dotnet-sonarscanner begin /k:"hoover328_ComputerParts" /o:"hoover328" /d:sonar.token="$(SONAR_TOKEN)" /d:sonar.host.url="https://sonarcloud.io"
-  displayName: 'Begin SonarCloud Analysis'
-
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'restore'
-    projects: '**/YourSolutionName.sln'
-
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
-    projects: '**/YourSolutionName.sln'
-    arguments: '--configuration Release'
-
-- script: |
-    dotnet-sonarscanner end /d:sonar.token="$(SONAR_TOKEN)"
-  displayName: 'End SonarCloud Analysis'
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'

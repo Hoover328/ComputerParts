@@ -71,5 +71,20 @@ namespace The_Assembler
         {
 
         }
+
+        private void btnLogIn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnCart_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnHistory_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
