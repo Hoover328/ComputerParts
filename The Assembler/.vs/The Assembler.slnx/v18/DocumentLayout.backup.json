@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmupdateproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\highlightedproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\highlightedproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmaddproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmaddproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\highlightedproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\highlightedproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\databaseassembler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\databaseassembler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmupdateproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmaddproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\frmaddproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\databaseassembler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|solutionrelative:the assembler\\databaseassembler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3695DCE-BC8F-5392-3DF3-2227CD9AD184}|The Assembler\\The Assembler.csproj|c:\\users\\studentharveysmith(t\\desktop\\compp\\the assembler\\the assembler\\frmproducts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frmUpdateProduct.xaml",
               "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmUpdateProduct.xaml",
               "RelativeDocumentMoniker": "The Assembler\\frmUpdateProduct.xaml",
@@ -92,32 +92,32 @@
               "RelativeDocumentMoniker": "The Assembler\\frmUpdateProduct.xaml.cs",
               "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmUpdateProduct.xaml.cs",
               "RelativeToolTip": "The Assembler\\frmUpdateProduct.xaml.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwDwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDcAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T12:30:02.683Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "HighlightedProducts.cs",
               "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\HighlightedProducts.cs",
               "RelativeDocumentMoniker": "The Assembler\\HighlightedProducts.cs",
               "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\HighlightedProducts.cs",
               "RelativeToolTip": "The Assembler\\HighlightedProducts.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAAAIsAAABrAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T11:13:52.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frmAddProduct.xaml.cs",
               "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmAddProduct.xaml.cs",
               "RelativeDocumentMoniker": "The Assembler\\frmAddProduct.xaml.cs",
-              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmAddProduct.xaml.cs*",
-              "RelativeToolTip": "The Assembler\\frmAddProduct.xaml.cs*",
+              "ToolTip": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmAddProduct.xaml.cs",
+              "RelativeToolTip": "The Assembler\\frmAddProduct.xaml.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T11:16:09.231Z",
@@ -125,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "DatabaseAssembler.cs",
               "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\DatabaseAssembler.cs",
               "RelativeDocumentMoniker": "The Assembler\\DatabaseAssembler.cs",
@@ -162,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "frmAddProduct.xaml",
               "DocumentMoniker": "C:\\Users\\StudentHarveySmith(T\\Desktop\\Compp\\The Assembler\\The Assembler\\frmAddProduct.xaml",
               "RelativeDocumentMoniker": "The Assembler\\frmAddProduct.xaml",
