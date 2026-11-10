@@ -114,8 +114,8 @@
                 Margin="67,112,431,0"
                 Height="278">
 
-            <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}"
-                      Margin="-2"/>
+            <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}"
+                      Margin="-2" Loaded="dataGrid_Loaded" SelectionChanged="DataGrid_SelectionChanged"/>
         </Border>
         <Label VerticalAlignment="Top"
                Margin="67,74,0,0"
@@ -150,8 +150,7 @@
                          Width="211"
                          Height="22"
                          BorderBrush="White"
-                         Background="White"
-                         Text="324.67$" FlowDirection="RightToLeft" SelectionBrush="White" IsReadOnly="True"/>
+                         Background="White" FlowDirection="RightToLeft" SelectionBrush="White" IsReadOnly="True"/>
 
                 <TextBox x:Name="shipSum" HorizontalAlignment="Left"
                          Margin="238,88,0,0"
@@ -186,7 +185,6 @@
                          Height="30"
                          FontSize="22"
                          BorderBrush="White"
-                         Text="324.67$"
                          FontFamily="Segoe UI Semilight" FlowDirection="RightToLeft" SelectionBrush="White" IsReadOnly="True"/>
                 <Label Content="Quantity" HorizontalAlignment="Left" Margin="7,8,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semilight" FontSize="16" RenderTransformOrigin="0.522,0.555"/>
 
@@ -230,7 +228,22 @@
                         </LinearGradientBrush>
                     </Button.Background>
                 </Button>
-                <xctk:IntegerUpDown x:Name="myUpDownControl_Copy" Value="1"  Minimum="1" Maximum="100" Margin="244,16,20,347" FontSize="16"/>
+                <Button x:Name="rmvItem" Content="Remove" HorizontalAlignment="Left" Margin="167,16,0,0" VerticalAlignment="Top" Height="22" Width="61" Click="RmvItem_Click" FontFamily="Segoe UI Semilight">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="White"/>
+                            <GradientStop Color="#FFECAE27" Offset="0.993"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="addItem" Content="Add" HorizontalAlignment="Left" Margin="249,16,0,0" VerticalAlignment="Top" Width="61" Height="22" FontFamily="Segoe UI Semilight" Click="AddItem_Clicked">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="White"/>
+                            <GradientStop Color="#FFA4FFF5" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
 
             </Grid>
         </Border>
