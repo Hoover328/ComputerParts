@@ -18,12 +18,12 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'restore'
-    projects: '**/*.csproj'
+    projects: '**/YourSolutionName.sln'
 
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    projects: '**/*.csproj'
+    projects: '**/YourSolutionName.sln'
     arguments: '--configuration Release'
 
 - script: |
