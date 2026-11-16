@@ -20,3 +20,6 @@ x86/
 ## NuGet package folders
 *.nupkg
 packages/
+
+## Azure Login and Password
+credentials.txt
