@@ -7,10 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: windows-latest
-
-variables:
-  buildConfiguration: 'Release'
+  vmImage: ubuntu-latest
 
 steps:
 - script: echo Hello, world!
@@ -19,14 +16,4 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
-
-- task: NuGetCommand@2
-  inputs:
-    restoreSolution: 'The Assembler/The Assembler.sln'
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'publish'
-    publishWebProjects: false
-    projects: 'The Assembler/The Assembler/The Assembler.csproj'
-    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/drop'
+  displayName: 'Run a multi-line script' 
