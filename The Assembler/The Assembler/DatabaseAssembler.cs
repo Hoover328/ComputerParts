@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data;
+using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Data.SqlClient;
 
@@ -9,7 +10,11 @@ namespace The_Assembler
     {
         private static string GetConnectionString()
         {
-            return @"Server=tcp:mysqlserverassembly.database.windows.net,1433;Initial Catalog=mySampleDatabase;User ID=azureuser;Password=admin123!;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            string[] lines = File.ReadAllLines("credentials.txt");
+            string userId = lines[0].Trim();
+            string password = lines[1].Trim();
+
+            return $@"Server=tcp:mysqlserverassembly.database.windows.net,1433;Initial Catalog=mySampleDatabase;User ID={userId};Password={password};Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         }
 
         public static SqlConnection OpenConnection()
