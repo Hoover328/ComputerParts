@@ -39,7 +39,7 @@ namespace The_Assembler
 
         private void btnSearch_Click(object sender, RoutedEventArgs e)
         {
-
+            Products.searchProduct(txtSearchBar.Text);
         }
 
         private void btnProduct1_Click(object sender, RoutedEventArgs e)
