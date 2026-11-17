@@ -60,7 +60,7 @@
                             <TextBlock Text="Filters" FontSize="14" FontWeight="Bold"/>
 
                             <TextBlock Text="Category" Style="{StaticResource FilterLabel}"/>
-                            <ComboBox x:Name="CategoryCombo" Height="32" SelectedIndex="0" SelectionChanged="CategoryCombo_SelectionChanged" BorderBrush="#FFACACAC" OpacityMask="Black">
+                            <ComboBox x:Name="CategoryCombo" Height="32" SelectedIndex="0" SelectionChanged="Cmb_SelectionChanged" BorderBrush="#FFACACAC" OpacityMask="Black">
                                 <ComboBox.Background>
                                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                         <GradientStop Color="White"/>

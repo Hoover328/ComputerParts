@@ -156,28 +156,9 @@ namespace The_Assembler
         
          private void AsGuest_Click(object sender, RoutedEventArgs e)
          {
-             if (dataGrid.Items.Count == 0)
-             {
-                 MessageBox.Show("Your cart is empty. Please add items before checking out.", "Empty Cart", MessageBoxButton.OK, MessageBoxImage.Warning);
-                 return;
-             }
-        
-        
-             MessageBoxResult result = MessageBox.Show("Are you sure you want to proceed with the checkout as the Guest?", "Confirm Checkout", MessageBoxButton.YesNo, MessageBoxImage.Question);
-        
-             if (result == MessageBoxResult.Yes)
-             {
-                 try
-                 {
-                     LoadCartData();
-        
-                     MessageBox.Show("Checkout successful! Thank you for your purchase.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
-                 }
-                 catch (Exception ex)
-                 {
-                     MessageBox.Show($"Error during checkout: {ex.Message}", "Database Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                 }
-             }
+             
+             
+
          }
     }
 }

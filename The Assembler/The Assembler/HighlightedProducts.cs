@@ -135,10 +135,9 @@ namespace The_Assembler
 
         public void UpdateProduct(int ProductID, string ProductName, string Description, string Availability, string Price)
         {
-            string sqlQuery = "SET IDENTITY_INSERT PRODUCTS ON; " +
-        "UPDATE PRODUCTS SET ProductName = " + ProductName + "SET Description = " + Description + 
-        "SET Availability = " + Availability + "SET Price = " + Price + "WHERE ProductID = " + ProductID + 
-        "SET IDENTITY_INSERT PRODUCTS OFF;";
+            string sqlQuery = "UPDATE PRODUCTS SET " + "ProductName = '" + ProductName + "', " + 
+                "Description = '" + Description + "', " + "Availability = '" + Availability + "', " + 
+                "Price = '" + Price + "' " + "WHERE ProductID = " + ProductID;
 
             DatabaseAssembler.ExecuteNonQuery(sqlQuery);
         }

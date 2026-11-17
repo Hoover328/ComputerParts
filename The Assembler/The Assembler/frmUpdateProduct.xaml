@@ -25,7 +25,7 @@
             <Label Content="Product ID" HorizontalAlignment="Left" Margin="45,139,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.137,-0.459" Background="White"/>
             <Label Content="Product Description" HorizontalAlignment="Left" Margin="44,278,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.137,-0.459" Background="White"/>
             <TextBox x:Name="txtProductDescription" HorizontalAlignment="Left" Margin="179,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="310" Height="105" TextChanged="txtDescription_TextChanged"/>
-            <TextBox x:Name="txtProductID" HorizontalAlignment="Left" Margin="141,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106" Height="21" TextChanged="txtProductID_TextChanged"/>
+            <TextBox x:Name="txtProductID" HorizontalAlignment="Left" Margin="141,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106" Height="21" TextChanged="txtProductID_TextChanged" IsEnabled="False"/>
             <Label Content="Availability" HorizontalAlignment="Left" Margin="508,242,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.137,-0.459" Background="White"/>
             <CheckBox x:Name="chkAvailability" Content="In Stock" HorizontalAlignment="Left" Margin="590,242,0,0" VerticalAlignment="Top" FontSize="18" IsChecked="True" Checked="chkAvailability_Checked"/>
             <Image HorizontalAlignment="Left" Height="101" VerticalAlignment="Top" Width="164" Source="/Screenshot_2026-10-06_113100_bg_removed.png.png" Margin="5,10,0,0"/>

@@ -49,7 +49,8 @@ namespace The_Assembler
             HighlightedProducts newProduct = new HighlightedProducts();
             if (newProduct.Validator(txtProductName, txtProductPrice, txtProductDescription, chkAvailability, txtProductID) == true)
             {
-                newProduct.UpdateProduct(HighlightedProducts.GetNextProductID(), txtProductName.Text, txtProductDescription.Text, availability, txtProductPrice.Text);
+            
+                newProduct.UpdateProduct(int.Parse(txtProductID.Text), txtProductName.Text, txtProductDescription.Text, availability, txtProductPrice.Text);
                 txtProductDescription.Text = "";
                 txtProductName.Text = "";
                 txtProductPrice.Text = "€";
@@ -99,8 +100,9 @@ namespace The_Assembler
                 txtProductName.Text = rowView["ProductName"]?.ToString() ?? string.Empty;
                 txtProductDescription.Text = rowView["Description"]?.ToString() ?? string.Empty;
                 txtProductPrice.Text = rowView["Price"]?.ToString() ?? string.Empty;
-                
-                if(rowView["Availability"].ToString() == "In Stock")
+                txtProductID.Text = rowView["ProductID"]?.ToString() ?? string.Empty;
+
+                if (rowView["Availability"].ToString() == "In Stock")
                 {
                     chkAvailability.IsChecked = true;
                 }

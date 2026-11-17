@@ -86,5 +86,10 @@ namespace The_Assembler
         {
 
         }
+
+        private void Cmb_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
