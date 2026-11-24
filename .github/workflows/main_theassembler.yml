@@ -49,7 +49,7 @@ jobs:
           name: .net-app
       
       - name: Login to Azure
-        uses: azure/login@v2
+        uses: azure/login@6b2456866fc08b011acb422a92a4aa20e2c4de32
         with:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_8F5F4CDB5B2A43D487E2EC57279505B7 }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_DDB21F0491C24CB0A054CF30FCAE1A04 }}
@@ -57,7 +57,7 @@ jobs:
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
-        uses: azure/webapps-deploy@v3
+        uses: azure/webapps-deploy@02a81bead70021f5284939794bcec79c271ab383
         with:
           app-name: 'TheAssembler'
           slot-name: 'Production'
